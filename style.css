@@ -59,7 +59,6 @@ body {
 }
 
 
-/* Dark overlay */
 
 #bg::after {
     content: "";
@@ -78,10 +77,6 @@ body {
     z-index: 1;
 }
 
-
-/* =========================
-   NAVIGATION
-========================= */
 
 .navigation {
     position: absolute;
@@ -136,7 +131,6 @@ body {
 }
 
 
-/* Liquid highlight */
 
 .navbar::before {
     content: "";
@@ -162,7 +156,6 @@ body {
 }
 
 
-/* Navbar hover */
 
 .navbar:hover {
     transform: translateY(-3px);
@@ -173,7 +166,6 @@ body {
 }
 
 
-/* Navigation list */
 
 #navlist {
     list-style: none;
@@ -190,7 +182,7 @@ body {
 }
 
 
-/* Navigation links */
+
 
 .menu {
     position: relative;
@@ -212,7 +204,6 @@ body {
 }
 
 
-/* Hover underline */
 
 .menu::after {
     content: "";
@@ -260,10 +251,6 @@ body {
 }
 
 
-/* =========================
-   MAIN
-========================= */
-
 main {
     position: relative;
 
@@ -271,9 +258,6 @@ main {
 }
 
 
-/* =========================
-   HERO SECTION
-========================= */
 
 .home {
     min-height: 100vh;
@@ -293,7 +277,6 @@ main {
 }
 
 
-/* Small label */
 
 .home::before {
     content: "✦ AI-POWERED HEALTH GUIDANCE";
@@ -321,7 +304,6 @@ main {
 }
 
 
-/* Hero heading */
 
 .home h1 {
     margin: 0;
@@ -357,7 +339,7 @@ main {
 }
 
 
-/* Hero paragraph */
+
 
 .home p {
     max-width: 650px;
@@ -374,9 +356,7 @@ main {
 }
 
 
-/* =========================
-   CTA BUTTON
-========================= */
+
 
 #cys {
     border: none;
@@ -427,10 +407,6 @@ main {
 }
 
 
-/* =========================
-   HOW IT WORKS
-========================= */
-
 #ABT {
     max-width: 1200px;
 
@@ -463,7 +439,6 @@ main {
 }
 
 
-/* Section heading */
 
 #ABT h2 {
     margin-top: 0;
@@ -478,7 +453,6 @@ main {
 }
 
 
-/* Cards */
 
 #ABT > div {
     display: inline-block;
@@ -514,7 +488,6 @@ main {
 }
 
 
-/* Card hover */
 
 #ABT > div:hover {
     transform:
@@ -529,7 +502,6 @@ main {
 }
 
 
-/* Card headings */
 
 #ABT h4 {
     font-size: 1.3rem;
@@ -540,7 +512,6 @@ main {
 }
 
 
-/* Card text */
 
 #ABT p {
     color:
@@ -550,9 +521,7 @@ main {
 }
 
 
-/* =========================
-   SAFETY
-========================= */
+
 
 #safety {
     max-width: 900px;
@@ -595,13 +564,6 @@ main {
 }
 
 
-/* =========================
-   CONTACT
-========================= */
-
-/* =========================
-   CONTACT
-========================= */
 
 #Contact {
     max-width: 1000px;
@@ -667,9 +629,8 @@ main {
     color: white;
     transform: translateY(-3px);
 }
-/* =========================
-   FOOTER
-========================= */
+
+
 
 footer {
     position: relative;
@@ -696,9 +657,6 @@ footer {
 }
 
 
-/* =========================
-   ANIMATIONS
-========================= */
 
 @keyframes heroText {
 
@@ -717,10 +675,6 @@ footer {
     }
 }
 
-
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media (max-width: 768px) {
 
@@ -784,10 +738,6 @@ footer {
 }
 
 
-/* =========================
-   BACKGROUND GLOW
-========================= */
-
 .page-glow {
     position: fixed;
     width: 500px;
@@ -821,11 +771,6 @@ footer {
     filter: blur(100px);
     border-radius: 50%;
 }
-
-
-/* =========================
-   HEADER
-========================= */
 
 .inner-header {
     width: 90%;
@@ -863,10 +808,6 @@ footer {
 }
 
 
-/* =========================
-   BRAND
-========================= */
-
 .brand {
     display: flex;
     align-items: center;
@@ -898,10 +839,6 @@ footer {
 }
 
 
-/* =========================
-   BACK BUTTON
-========================= */
-
 .back-link {
     color: rgba(255, 255, 255, 0.75);
 
@@ -929,10 +866,6 @@ footer {
 }
 
 
-/* =========================
-   MAIN
-========================= */
-
 .checker-main {
     min-height: calc(100vh - 100px);
 
@@ -943,10 +876,6 @@ footer {
     padding: 70px 20px;
 }
 
-
-/* =========================
-   GLASS CARD
-========================= */
 
 .glass-section {
     width: 100%;
