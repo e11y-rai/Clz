@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediGuide — Symptoms</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1fe5f2c623.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body class="inner-page">
+    <div class="page-glow"></div>
+
+    <header class="inner-header">
+        <a class="brand" href="index.html"><i class="fa-solid fa-house"></i> MediGuide</a>
+        <a class="back-link" href="index.html">← Back</a>
+    </header>
+
+    <main class="checker-main">
+        <section class="checker glass-section">
+            <div class="eyebrow">SYMPTOM CHECKER</div>
+            <h1>What are you feeling?</h1>
+            <p class="lead">Select the symptoms that apply and add any details you want MediGuide to consider.</p>
+
+            <div class="symptom-grid">
+                <button type="button" class="symptom-chip"><i class="fa-solid fa-temperature-half"></i> Fever</button>
+                <button type="button" class="symptom-chip"><i class="fa-solid fa-head-side-virus"></i> Headache</button>
+                <button type="button" class="symptom-chip"><i class="fa-solid fa-lungs"></i> Cough</button>
+                <button type="button" class="symptom-chip"><i class="fa-solid fa-comment-medical"></i> Sore Throat</button>
+                <button type="button" class="symptom-chip"><i class="fa-solid fa-face-dizzy"></i> Nausea</button>
+                <button type="button" class="symptom-chip"><i class="fa-solid fa-bed"></i> Fatigue</button>
+            </div>
+
+            <label for="tum">Tell us more</label>
+            <textarea id="tum" placeholder="How are you feeling?"></textarea>
+
+            <p id="formError" class="error"></p>
+
+            <a id="wi" href="results.html"><button id="analyzeBtn" class="primary-btn" type="button">
+                Analyze Symptoms <i class="fa-solid fa-arrow-right"></i>
+            </button></a> 
+
+        </section>
+    </main>
+</body>
+</html>
